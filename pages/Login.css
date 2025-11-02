@@ -1,0 +1,42 @@
+.login-container {
+  width: 100%;
+  max-width: 380px;
+  margin: 80px auto;
+  padding: 24px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 14px;
+}
+
+.login-container input {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px 12px;
+}
+
+.login-container button {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  filter: brightness(1.05);
+}
+
+.login-container p {
+  color: #93c5fd;
+  cursor: pointer;
+}
+
+.login-container p:hover {
+  text-decoration: underline;
+}

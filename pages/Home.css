@@ -1,0 +1,16 @@
+.home {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.vehicle-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.vehicle-list .vehicle-card {
+  margin: 0;
+}

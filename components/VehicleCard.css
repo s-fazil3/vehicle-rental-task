@@ -1,0 +1,49 @@
+.vehicle-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 220px;
+  text-align: center;
+  display: inline-block;
+  background-color: #fafafa;
+  transition: 0.3s;
+}
+
+.vehicle-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.vehicle-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.vehicle-card button {
+  background: #1e90ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vehicle-card button:hover {
+  background: #0073e6;
+}
+
+.vehicle-card .booked-badge {
+  display: inline-block;
+  background: #ef4444;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.vehicle-card button:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
