@@ -1,6 +1,6 @@
 import axios from 'axios';
 export const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://vehicle-rental-task.onrender.com/api',
 });
 API.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
